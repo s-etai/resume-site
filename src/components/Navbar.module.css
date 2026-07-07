@@ -42,6 +42,21 @@
   color: var(--text);
 }
 
+.resumeBtn {
+  font-size: 0.9rem;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.resumeBtn:hover {
+  background: var(--accent);
+  color: #0f0f13;
+}
+
 @media (max-width: 480px) {
   .links {
     gap: 16px;

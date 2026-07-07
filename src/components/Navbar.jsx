@@ -18,6 +18,15 @@ export default function Navbar() {
               <a href={href} className={styles.link}>{label}</a>
             </li>
           ))}
+          <li>
+            <a
+              href="resume.pdf"
+              download="Elliott_Tai_Resume.pdf"
+              className={styles.resumeBtn}
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
